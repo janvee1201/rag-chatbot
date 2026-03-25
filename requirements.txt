@@ -1,0 +1,20 @@
+# Document processing
+langchain
+langchain-community
+pypdf
+pdfplumber
+
+# Embeddings (runs locally, no API key)
+sentence-transformers
+faiss-cpu
+
+# LLM (free HuggingFace inference)
+huggingface-hub
+transformers
+
+# UI
+streamlit
+
+# Utilities
+python-dotenv
+tqdm
