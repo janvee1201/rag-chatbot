@@ -77,13 +77,13 @@ A production-grade **Retrieval-Augmented Generation (RAG)** system that lets you
 
 ### Prerequisites
 - Python 3.11+
-- Free accounts at [HuggingFace](https://huggingface.co) and [OpenRouter](https://openrouter.ai)
+- Free account at [OpenRouter](https://openrouter.ai)
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/enterprise-doc-chatbot.git
-cd enterprise-doc-chatbot
+git clone https://github.com/janvee1201/rag-chatbot.git
+cd chatbot
 ```
 
 ### 2. Install dependencies
@@ -97,8 +97,7 @@ pip install -r requirements.txt
 Create a `.env` file in the project root:
 
 ```env
-# HuggingFace (free token - huggingface.co/settings/tokens)
-HUGGINGFACEHUB_API_TOKEN=hf_xxxxxxxxxxxxxxxxxxxxxxxx
+
 
 # OpenRouter (free key - openrouter.ai/keys)
 OPENROUTER_API_KEY=sk-or-xxxxxxxxxxxxxxxxxxxxxxxx
